@@ -1,38 +1,527 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2? family= Advertencia:wght@400;600 & display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    font-family: 'Caveat', cursive;
+    background-image: url(./imagen/fondo4.png);
+    background-repeat: repeat;
+    background-size: 100%;
+    background-position: inherit;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+nav{
+    height: 100vh;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.ham-menu {
+    border: 5px solid #00D2FC;
+    border-radius: 10px;
+    width: 60px;
+    height: 50px;    
+    position: absolute;
+    top: 10px;
+    left: 130px;
+    cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.ham-menu span{   
+    display: block;
+    position: relative;
+    left: 12px;
+    width: 50%;
+    height: 5px;
+    background: red;
+    margin-top: 6px;
+    transform-origin: 0px 100%;
+    transition: all 300ms;
+   
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* .ham-menu:active . */
+/* br-1  {
+    transform: rotate(45deg)
+    translate(-2px, 1px); */
+    
+/* } */
+/* .ham-menu:active . */
+/* br-2 {
+    opacity: 0;
+    margin-left:  -30px;
+} */
+/* .ham-menu:active . */
+/* br-3 {
+    transform: rotate(-45deg)
+    translate(-4px,  2px);
+}  */
+
+.nav_item {
+    color: #FEFEDF;
+    list-style: none;
+    text-decoration: none;  
+    --clippy:  polygon(0 0, 0 0, 0 100%, 0% 100%);    
+    cursor: pointer;
 }
+
+.nav_item::after{
+    content: "";
+    display: block;
+    width: 100%;
+    margin-top: 3px;
+    height: 3px;
+    background: black;
+    clip-path:  var(--clippy);
+    transition: clip-path .3s;
+}
+
+.nav_item:hover{
+    --clippy:  polygon(0 0, 100% 1%, 100% 100%, 0 100%);
+}
+
+
+
+.nav_container {
+    height: 100%;
+    width: 90%;
+    font-size: 13px;
+    align-items: center;
+    position: absolute;
+   bottom: 10px;
+    left: 20px;   
+}
+
+
+    .nav_menu{
+        font-size: 25px;        
+         position: fixed; 
+        top: 80px;   
+        bottom: 0;
+        background: #2C73D2;
+        width: 100%;
+        left: 0;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;  
+        z-index: 999;      
+        clip-path: circle(0 at center );
+        transition: clip-path .3s ease-in-out ;
+
+    }  
+
+    .nav_input:checked + .nav_menu{
+        clip-path: circle(100% at center);
+    }   
+    
+    .nav_input{
+        position: relative;
+        right: 300px;
+    }
+
+     .nav_container{
+       background-image: url(./imagen/developernew.png);
+        height: 20rem;
+        width: 10rem;
+        background-size: 100px;   
+        left: 50px; 
+        background-repeat: no-repeat;
+        position: absolute;
+        top:130px
+        
+        
+    } 
+
+    .nav_logo{
+        font-size: 15px;
+        position: relative;
+        top: 35px;
+        right: 12px;
+        left: 20px;
+        font-weight: bold;               
+    }
+
+    .lastname{
+        position: relative;
+        top:35px;
+        left: 10px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    /* .hello{
+        position: relative;
+        left: 25px;
+        bottom: 480px;
+     } */
+
+     /* .developer{
+        position: relative;
+        left: 20px;
+        bottom: 480px; 
+     }
+
+     .full{
+        position: relative;
+        left: 40px;
+        bottom: 480px;
+     }
+
+     .location{
+        position: relative;
+        left: 60px;
+        bottom: 450px;
+        font-weight: bold;
+    }
+
+    .city{
+        position: relative;
+        left: 30px;
+        bottom: 450px;
+    }
+
+    .contact{
+        position: relative;
+        left: 50px;
+        bottom: 450px;
+        font-weight: bold;
+    } */
+
+    .logo_linkedin{
+        background-image: url(./imagen/linkedin.png);
+        height:50px;
+        width: 100px;
+        background-size: 40px;
+        background-repeat: no-repeat;
+        cursor: pointer;
+        position: absolute;
+        left: 75px;
+        bottom: 10px;
+    }
+
+    .logo_github{
+        background-image: url(./imagen/github.png);
+        height: 50px;
+        width: 100px;
+        background-size: 40px;
+        background-repeat: no-repeat;
+        cursor: pointer;
+        position: absolute;
+        left: 10px;
+        bottom: 10px;
+    }
+
+    .email{
+        background-image: url(./imagen/email.png);
+        height: 50px;
+        width: 100px;
+        background-size: 40px;
+        background-repeat: no-repeat;
+        cursor: pointer;
+        position: absolute;
+        left: 140px;
+        bottom: 10px;
+    }
+    
+
+     /* .paragraph{
+         position: relative;
+         bottom: 460px;  
+         font-size: 15px;
+         right: 10px;  
+         font-weight: bold;     
+     }
+
+     .paragraph2{
+         font-size: 17px;
+        position: relative;
+        bottom: 430px;
+        left: 0px;
+     }
+
+     .location{
+         position: relative;
+         left: 40px;
+     }
+
+     .contact{
+            position: relative;
+            left: 30px;
+     }
+
+     .full{
+        position: relative;
+        left: 30px;
+     }
+
+     
+
+     .developer{
+        position: relative;
+        left: 10px;        
+     } */
+
+    
+     .paragraph{
+         position:absolute;
+         left: 2rem;
+         bottom: 4.5rem;
+        text-align: center;        
+     }
+
+     .aboutme{
+         height: 6rem;
+         width: 12.4rem;
+         /* border: 1px solid black;                 */
+     }
+
+     .aboutme_name{
+         position: absolute;
+         left: 1rem;
+         top: 3.5rem;
+         font-weight: bold;
+     }
+
+     .item-slide1{
+        background-image: url(./imagen/css-3.png);
+        background-repeat: no-repeat;
+        height: 70px;
+        width:4rem;
+        background-size: 60px;
+        opacity: 0.3;
+     }
+
+     .item-slide2{
+        background-image: url(./imagen/github-sign.png);
+        background-repeat: no-repeat;
+        height: 70px;
+        width:4rem;
+        background-size: 60px;
+        opacity: 0.3;
+     }  
+     
+     .item-slide3{
+        background-image: url(./imagen/heroku.png);
+        background-repeat: no-repeat;
+        height: 70px;
+        width:4rem;
+        background-size: 60px;
+        opacity: 0.3;
+     }
+
+     .item-slide4{
+        background-image: url(./imagen/html-5.png);
+        background-repeat: no-repeat;
+        height: 70px;
+        width:4rem;
+        background-size: 60px;
+        opacity: 0.3;
+     }
+
+     .item-slide5{
+        background-image: url(./imagen/js.png);
+        background-repeat: no-repeat;
+        height: 70px;
+        width:4rem;
+        background-size: 60px;
+        opacity: 0.3;
+     }
+
+     .item-slide6{
+        background-image: url(./imagen/mongodb.png);
+        background-repeat: no-repeat;
+        height: 70px;
+        width:4rem;
+        background-size: 60px;
+        opacity: 0.3;
+     }
+
+     .item-slide7{
+        background-image: url(./imagen/netlify.png);
+        background-repeat: no-repeat;
+        height: 70px;
+        width:4rem;
+        background-size: 60px;
+        opacity: 0.3;
+     }
+
+     .item-slide8{
+        background-image: url(./imagen/nodejs.png);
+        background-repeat: no-repeat;
+        height: 70px;
+        width:4rem;
+        background-size: 60px;
+        opacity: 0.3;
+     }
+
+     .item-slide9{
+        background-image: url(./imagen/react.png);
+        background-repeat: no-repeat;
+        height: 70px;
+        width:4rem;
+        background-size: 60px;
+        opacity: 0.3;
+     }
+
+     .item-slide10{
+        position: absolute;
+        left: 8rem;
+        background-image: url(./imagen/postgre.png);
+        background-repeat: no-repeat;
+        height: 70px;
+        width:4rem;
+        background-size: 60px;
+        opacity: 0.3;
+     }
+
+     .item-slide11{
+        background-image: url(./imagen/postman.png);
+        background-repeat: no-repeat;
+        height: 70px;
+        width:4rem;
+        background-size: 60px;
+        opacity: 0.3;
+     }
+
+     
+     .slide{
+        height: 50rem;
+        width:  12.8rem;
+        /* border: 3px solid black; */
+     }    
+     
+     .slide_text{
+        position: absolute;
+        left: 1rem;        
+        font-weight: bold;     
+        font-size: 2rem;        
+        text-transform: uppercase;
+        overflow: hidden;
+        white-space: nowrap;
+        border-right: 3px solid;
+        animation: escribiendo 5s steps(30), 
+        cursor 0.5s step-end infinite alternate;
+     }
+
+     @keyframes escribiendo{
+        0%{
+            width: 0;
+        }
+        100%{
+            width: 30ch;
+        }
+    }    
+    @keyframes cursor{
+        50%{
+            border-color: transparent;
+        }
+    }
+
+    .text-up{
+        position: absolute;
+        top: 10rem;
+        left: 1rem;
+        font-weight: bold;
+    }
+
+    .text-medium{
+        position: absolute;
+        top: 18rem;
+        font-weight: bold;
+    }
+
+    .title-medium{
+        position: absolute;      
+        top: 15rem;     
+        left: 1rem;        
+        font-weight: bold;     
+        font-size: 1.5rem;        
+        text-transform: uppercase;
+        overflow: hidden;
+        white-space: nowrap;
+        border-right: 3px solid;
+        animation: escribiendo 5s steps(30), 
+        cursor 0.5s step-end infinite alternate;
+    }
+    @keyframes escribiendo{
+        0%{
+            width: 0;
+        }
+        100%{
+            width: 30ch;
+        }
+    }    
+    @keyframes cursor{
+        50%{
+            border-color: transparent;
+        }
+    }
+
+    .title-down{
+        position: absolute;
+        top: 44rem;
+        left: 1.2rem;
+        font-weight: bold;
+    }
+
+    .text-down{
+        position: absolute;
+        top: 46.5rem;
+        left: 1.5rem;
+        font-weight: bold;
+    }
+
+    .title-down2{
+        position: absolute;
+        top: 48.5rem;
+        left: 0.9rem;
+        font-weight: bold;
+    }
+    
+    .logolinkedin-about{
+        background-image: url(./imagen/linkedin.png);
+        height:50px;
+        width: 100px;
+        background-size: 40px;
+        background-repeat: no-repeat;
+        cursor: pointer;
+        position: absolute;
+        top: 52rem;
+        left: 1rem;
+        font-weight: bold;
+    }
+
+    .logogithub-about{
+        background-image: url(./imagen/github.png);
+        height:50px;
+        width: 100px;
+        background-size: 40px;
+        background-repeat: no-repeat;
+        cursor: pointer;
+        position: absolute;
+        top: 52rem;
+        left: 4.5rem;
+        font-weight: bold;
+    }
+
+    .email-about{
+        background-image: url(./imagen/email.png);
+        height:50px;
+        width: 100px;
+        background-size: 40px;
+        background-repeat: no-repeat;
+        cursor: pointer;
+        position: absolute;
+        top: 52rem;
+        left: 8.3rem;
+        font-weight: bold; 
+    }
+     
+     
+
+      
+     
+    
+
