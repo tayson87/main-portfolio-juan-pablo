@@ -518,6 +518,77 @@ nav{
         left: 8.3rem;
         font-weight: bold; 
     }
+
+    /* componet project  */
+
+    .project-main{
+        /* position: absolute;
+        top: 0;
+        left: 0; */
+        width: 12.3rem;
+        height: 10rem;
+        border: 3px solid black;
+        
+    }
+
+    .title-project{
+        position: absolute;
+        top: 6.5rem;
+        left: 2rem;
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+
+    .title-name{
+        position: absolute;
+        left: 1rem;
+        font-weight: bold;
+        font-size: 1rem;
+    }
+
+    .app-time{
+        position: absolute;
+        top: 10.8rem;          
+        width: 12.3rem;
+        height: 30rem;
+        border: 3px solid black;
+        border-radius: 1rem;
+        box-shadow: 0px 0px 18px #000;
+        background-image: url(./imagen/app\ clima.PNG);
+        background-size: 8rem;
+       background-repeat: no-repeat;
+       background-position: center 15%;               
+    }
+
+    .title-time{
+        font-size: 2rem;
+        position: absolute;
+        left: 1rem;
+    }
+
+    .description-time{
+     position: absolute;
+     left: 1rem;
+     top: 11rem;
+    }
+   
+    .btn_time{
+        width: 8rem;
+        height: 2rem;
+        position: absolute;
+        top: 26.5rem;
+        left: 2rem;
+        border: 1rem;
+        border-radius: 2rem;
+        background-color: #00D2FC;
+        opacity: 0.7;
+        box-shadow: 0px 0px 15px ;
+    }
+
+
+           
+        
+
      
      
 
