@@ -550,7 +550,7 @@ nav{
         position: absolute;
         top: 10.8rem;          
         width: 12.3rem;
-        height: 30rem;
+        height: 35rem;
         border: 3px solid black;
         border-radius: 1rem;
         box-shadow: 0px 0px 18px #000;
@@ -576,14 +576,306 @@ nav{
         width: 8rem;
         height: 2rem;
         position: absolute;
-        top: 26.5rem;
+        top: 31rem;
         left: 2rem;
         border: 1rem;
         border-radius: 2rem;
         background-color: #00D2FC;
         opacity: 0.7;
         box-shadow: 0px 0px 15px ;
+        text-decoration: none;
+        text-align: center;
     }
+
+    .logoreact{
+        width: 4rem;
+        height: 4rem;
+        background-image: url(./imagen/react.png);
+        background-size: 2.5rem;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 37.5rem;
+        left: 1rem;
+    }
+
+    .logojs{
+        width: 4rem;
+        height: 4rem;
+        background-image: url(./imagen/js.png);
+        background-size: 2.5rem;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 37.5rem;
+        left: 5rem;              
+    }
+
+    .logocss{
+        width: 4rem;
+        height: 4rem;
+        background-image: url(./imagen/css-3.png);
+        background-size: 2.5rem;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 37.5rem;
+        left: 9rem;                 
+    }
+
+    /* end project time */
+
+    /* app phrases start */
+
+    .app-phrases{
+        position: absolute;
+        top: 48rem;          
+        width: 12.3rem;
+        height: 35rem;
+        border: 3px solid black;
+        border-radius: 1rem;
+        box-shadow: 0px 0px 18px #000;
+        background-image: url(./imagen/frases.PNG);
+        background-size: 8rem;
+       background-repeat: no-repeat;
+       background-position: center 15%;               
+    }
+
+    .title-phrases{
+        font-size: 2rem;
+        position: absolute;
+        left: 1rem;
+    }
+
+    .description-phrases{
+        position: absolute;
+        left: 1rem;
+        top: 11rem;
+       }
+
+       .logoreact-phrases{
+        width: 4rem;
+        height: 4rem;
+        background-image: url(./imagen/react.png);
+        background-size: 2.5rem;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 74rem;
+        left: 1rem;
+    }
+
+    .logojs-phrases{
+        width: 4rem;
+        height: 4rem;
+        background-image: url(./imagen/js.png);
+        background-size: 2.5rem;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 74rem;
+        left: 5rem;              
+    }
+
+    .logocss-phrases{
+        width: 4rem;
+        height: 4rem;
+        background-image: url(./imagen/css-3.png);
+        background-size: 2.5rem;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 74rem;
+        left: 9rem;                        
+    }
+
+    /* end project phrases */
+
+    /* start rick and morty */
+
+    .app-rickandmorty{
+        position: absolute;
+        top: 85rem;          
+        width: 12.3rem;
+        height: 35rem;
+        border: 3px solid black;
+        border-radius: 1rem;
+        box-shadow: 0px 0px 18px #000;
+        background-image: url(./imagen/rick\ and\ morty.PNG);
+        background-size: 8rem;
+       background-repeat: no-repeat;
+       background-position: center 19%;               
+    }
+
+    .title-rickandmorty{
+        font-size: 2rem;
+        position: absolute;
+        left: 1rem;
+        text-align: center;
+    }
+
+    .description-rickandmorty{
+        position: absolute;
+        left: 1rem;
+        top: 11rem;
+       }
+
+       .logoreact-rickandmorty{
+        width: 4rem;
+        height: 4rem;
+        background-image: url(./imagen/react.png);
+        background-size: 2.5rem;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 111rem;
+        left: 1rem;
+    }
+
+    .logojs-rickandmorty{
+        width: 4rem;
+        height: 4rem;
+        background-image: url(./imagen/js.png);
+        background-size: 2.5rem;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 111rem;
+        left: 5rem;              
+    }
+
+    .logocss-rickandmorty{
+        width: 4rem;
+        height: 4rem;
+        background-image: url(./imagen/css-3.png);
+        background-size: 2.5rem;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 111rem;
+        left: 9rem;                        
+    }
+
+    /* end rick and morty */
+
+    .app-pokedex{
+        position: absolute;
+        top: 122rem;          
+        width: 12.3rem;
+        height: 35rem;
+        border: 3px solid black;
+        border-radius: 1rem;
+        box-shadow: 0px 0px 18px #000;
+        background-image: url(./imagen/pokedex.PNG);
+        background-size: 8rem;
+       background-repeat: no-repeat;
+       background-position: center 19%;               
+    }
+
+    .title-pokedex{
+        font-size: 2rem;
+        position: absolute;
+        left: 1rem;
+        text-align: center;
+    }
+
+    .description-pokedex{
+        position: absolute;
+        left: 1rem;
+        top: 12rem;
+       }
+
+       .logoreact-pokedex{
+        width: 4rem;
+        height: 4rem;
+        background-image: url(./imagen/react.png);
+        background-size: 2.5rem;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 148rem;
+        left: 1rem;
+    }
+
+    .logojs-pokedex{
+        width: 4rem;
+        height: 4rem;
+        background-image: url(./imagen/js.png);
+        background-size: 2.5rem;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 148rem;
+        left: 5rem;              
+    }
+
+    .logocss-pokedex{
+        width: 4rem;
+        height: 4rem;
+        background-image: url(./imagen/css-3.png);
+        background-size: 2.5rem;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 148rem;
+        left: 9rem;                        
+    }
+
+    /* end pokedex */
+ /* start crud */
+
+ .app-crud{
+    position: absolute;
+    top: 159rem;          
+    width: 12.3rem;
+    height: 35rem;
+    border: 3px solid black;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 18px #000;
+    background-image: url(./imagen/crud.PNG);
+    background-size: 9rem;
+   background-repeat: no-repeat;
+   background-position: center 15%;               
+}
+
+.title-crud{
+    font-size: 2rem;
+    position: absolute;
+    left: 1rem;
+    text-align: center;
+}
+
+.description-crud{
+    position: absolute;
+    left: 1rem;
+    top: 11rem;
+   }
+
+   .logoreact-crud{
+    width: 4rem;
+    height: 4rem;
+    background-image: url(./imagen/react.png);
+    background-size: 2.5rem;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 186rem;
+    left: 1rem;
+}
+
+.logojs-crud{
+    width: 4rem;
+    height: 4rem;
+    background-image: url(./imagen/js.png);
+    background-size: 2.5rem;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 186rem;
+    left: 5rem;              
+}
+
+.logocss-crud{
+    width: 4rem;
+    height: 4rem;
+    background-image: url(./imagen/css-3.png);
+    background-size: 2.5rem;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 186rem;
+    left: 9rem;                        
+}
+
+/* end crud */
+
+
+
 
 
            
