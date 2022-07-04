@@ -54,6 +54,27 @@ const Aboutme = () => {
                                  </div>  
                             <div className='email-about'>
                                  </div> 
+                                 <a
+          className="btn-in"
+          href="https://www.linkedin.com/in/juan-pablo-mart%C3%ADnez-rivera-b83aa1b2?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bat3S5M5IQJmWtz30V9xvrQ%3D%3D"
+        >
+          IR
+        </a>
+
+        <a
+          className="btn-git"
+          href="https://github.com/tayson87"
+        >
+          IR
+        </a>
+
+        <a
+          className="btn-email"
+          href="https://accounts.google.com/signin/v2/identifier?service=mail&passive=1209600&osid=1&continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&emr=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin"
+        >
+          IR
+        </a>
+                                 
 
                 <div className='item-slide1'>
                     <img src='../imagen/css-3.png' alt='' />

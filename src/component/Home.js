@@ -4,7 +4,7 @@ import Nav from './Nav';
 
 const Home = () => {
     return (
-        <div className='font1'> 
+        <div className='font'> 
          <Nav />
          <Menu />    
                    

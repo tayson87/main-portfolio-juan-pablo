@@ -13,8 +13,14 @@ body {
     background-position: inherit;
 }
 
-nav{
+/* nav{
     height: 100vh;
+} */
+
+.font1{
+width: 18.2rem;
+height: 50rem;
+/* border: 0.5rem solid black; */
 }
 
 .ham-menu {
@@ -23,8 +29,8 @@ nav{
     width: 60px;
     height: 50px;    
     position: absolute;
-    top: 10px;
-    left: 130px;
+    top: 17px;
+    left: 150px;
     cursor: pointer;
 }
 
@@ -119,36 +125,37 @@ nav{
     .nav_input{
         position: relative;
         right: 300px;
+        bottom: 5rem;
     }
 
      .nav_container{
        background-image: url(./imagen/developernew.png);
         height: 20rem;
         width: 10rem;
-        background-size: 100px;   
-        left: 50px; 
+        background-size: 110px;   
+        left: 85px; 
         background-repeat: no-repeat;
         position: absolute;
-        top:130px
-        
+        top:10.5rem;       
         
     } 
 
     .nav_logo{
-        font-size: 15px;
+        font-size: 20px;
         position: relative;
-        top: 35px;
+        top: 80px;
         right: 12px;
-        left: 20px;
-        font-weight: bold;               
+        left: 70px;
+        font-weight: bold;                     
     }
 
     .lastname{
         position: relative;
-        top:35px;
-        left: 10px;
-        font-size: 15px;
+        top:80px;
+        left: 30px;
+        font-size: 20px;
         font-weight: bold;
+        text-align: center;
     }
 
     /* .hello{
@@ -189,41 +196,95 @@ nav{
         font-weight: bold;
     } */
 
+    /* Icons about me start */
+
     .logo_linkedin{
         background-image: url(./imagen/linkedin.png);
         height:50px;
         width: 100px;
-        background-size: 40px;
+        background-size: 48px;
         background-repeat: no-repeat;
         cursor: pointer;
         position: absolute;
-        left: 75px;
-        bottom: 10px;
+        left: 7rem;
+        top: 44rem;
     }
 
     .logo_github{
         background-image: url(./imagen/github.png);
         height: 50px;
         width: 100px;
-        background-size: 40px;
+        background-size: 48px;
         background-repeat: no-repeat;
         cursor: pointer;
         position: absolute;
-        left: 10px;
-        bottom: 10px;
+        left: 1.5rem;
+        top: 44rem;
     }
 
     .email{
         background-image: url(./imagen/email.png);
         height: 50px;
         width: 100px;
-        background-size: 40px;
+        background-size: 48px;
         background-repeat: no-repeat;
         cursor: pointer;
         position: absolute;
-        left: 140px;
-        bottom: 10px;
+        left: 12.3rem;
+        top: 44rem;
     }
+
+    .btn-in{
+        position: absolute;
+        top: 54.5rem;
+        left: 1.4rem;
+        text-decoration: none;
+    }
+
+    .btn-git{
+        position: absolute;
+        top: 54.5rem;
+        left: 5rem;
+        text-decoration: none;
+        color: black;
+    }
+
+    .btn-email{
+        position: absolute;
+        top: 54.5rem;
+        left: 9rem;
+        text-decoration: none;
+        color: #00D2FC; 
+    }
+
+    .btn-innav{
+        position: absolute;
+        top: 47.5rem;
+        left: 8rem;
+        text-decoration: none;
+        font-size: 1.5rem;
+    }
+
+    .btn-gitnav{
+        position: absolute;
+        top: 47.5rem;
+        left: 1.9rem;
+        text-decoration: none;
+        color: black;
+        font-size: 1.5rem;
+    }
+
+    .btn-emailnav{
+        position: absolute;
+        top: 47.5rem;
+        left: 13rem;
+        text-decoration: none;
+        color: #00D2FC; 
+        font-size: 1.5rem;
+    }
+
+
+    /* end icons about me */
     
 
      /* .paragraph{
@@ -267,8 +328,10 @@ nav{
      .paragraph{
          position:absolute;
          left: 2rem;
-         bottom: 4.5rem;
-        text-align: center;        
+         top:24rem;
+         left: 4rem;
+        text-align: center;
+        font-size: 1.3rem;        
      }
 
      .aboutme{
@@ -525,9 +588,12 @@ nav{
         /* position: absolute;
         top: 0;
         left: 0; */
-        width: 12.3rem;
+        width: 13.6rem;
         height: 10rem;
-        border: 3px solid black;
+        /* border: 3px solid black;
+        border-radius: 2rem;
+        box-shadow: 0px 0px 15px ; */
+
         
     }
 
@@ -548,7 +614,8 @@ nav{
 
     .app-time{
         position: absolute;
-        top: 10.8rem;          
+        top: 10.8rem;
+        left: 0.7rem;          
         width: 12.3rem;
         height: 35rem;
         border: 3px solid black;
@@ -595,7 +662,7 @@ nav{
         background-repeat: no-repeat;
         position: absolute;
         top: 37.5rem;
-        left: 1rem;
+        left: 1.6rem;
     }
 
     .logojs{
@@ -606,7 +673,7 @@ nav{
         background-repeat: no-repeat;
         position: absolute;
         top: 37.5rem;
-        left: 5rem;              
+        left: 5.5rem;              
     }
 
     .logocss{
@@ -617,7 +684,7 @@ nav{
         background-repeat: no-repeat;
         position: absolute;
         top: 37.5rem;
-        left: 9rem;                 
+        left: 9.5rem;                 
     }
 
     /* end project time */
@@ -626,7 +693,8 @@ nav{
 
     .app-phrases{
         position: absolute;
-        top: 48rem;          
+        top: 48rem;
+        left: 0.7rem;           
         width: 12.3rem;
         height: 35rem;
         border: 3px solid black;
@@ -658,7 +726,7 @@ nav{
         background-repeat: no-repeat;
         position: absolute;
         top: 74rem;
-        left: 1rem;
+        left: 1.6rem;
     }
 
     .logojs-phrases{
@@ -669,7 +737,7 @@ nav{
         background-repeat: no-repeat;
         position: absolute;
         top: 74rem;
-        left: 5rem;              
+        left: 5.5rem;              
     }
 
     .logocss-phrases{
@@ -680,7 +748,7 @@ nav{
         background-repeat: no-repeat;
         position: absolute;
         top: 74rem;
-        left: 9rem;                        
+        left: 9.5rem;                        
     }
 
     /* end project phrases */
@@ -689,7 +757,8 @@ nav{
 
     .app-rickandmorty{
         position: absolute;
-        top: 85rem;          
+        top: 85rem; 
+        left: 0.7rem;          
         width: 12.3rem;
         height: 35rem;
         border: 3px solid black;
@@ -722,7 +791,7 @@ nav{
         background-repeat: no-repeat;
         position: absolute;
         top: 111rem;
-        left: 1rem;
+        left: 1.6rem;
     }
 
     .logojs-rickandmorty{
@@ -733,7 +802,7 @@ nav{
         background-repeat: no-repeat;
         position: absolute;
         top: 111rem;
-        left: 5rem;              
+        left: 5.5rem;              
     }
 
     .logocss-rickandmorty{
@@ -744,14 +813,15 @@ nav{
         background-repeat: no-repeat;
         position: absolute;
         top: 111rem;
-        left: 9rem;                        
+        left: 9.5rem;                        
     }
 
     /* end rick and morty */
 
     .app-pokedex{
         position: absolute;
-        top: 122rem;          
+        top: 122rem;
+        left: 0.7rem;           
         width: 12.3rem;
         height: 35rem;
         border: 3px solid black;
@@ -784,7 +854,7 @@ nav{
         background-repeat: no-repeat;
         position: absolute;
         top: 148rem;
-        left: 1rem;
+        left: 1.6rem;
     }
 
     .logojs-pokedex{
@@ -795,7 +865,7 @@ nav{
         background-repeat: no-repeat;
         position: absolute;
         top: 148rem;
-        left: 5rem;              
+        left: 5.5rem;              
     }
 
     .logocss-pokedex{
@@ -806,7 +876,7 @@ nav{
         background-repeat: no-repeat;
         position: absolute;
         top: 148rem;
-        left: 9rem;                        
+        left: 9.5rem;                        
     }
 
     /* end pokedex */
@@ -814,7 +884,8 @@ nav{
 
  .app-crud{
     position: absolute;
-    top: 159rem;          
+    top: 159rem;
+    left: 0.7rem;           
     width: 12.3rem;
     height: 35rem;
     border: 3px solid black;
@@ -847,7 +918,7 @@ nav{
     background-repeat: no-repeat;
     position: absolute;
     top: 186rem;
-    left: 1rem;
+    left: 1.6rem;
 }
 
 .logojs-crud{
@@ -858,7 +929,7 @@ nav{
     background-repeat: no-repeat;
     position: absolute;
     top: 186rem;
-    left: 5rem;              
+    left: 5.5rem;              
 }
 
 .logocss-crud{
@@ -869,10 +940,134 @@ nav{
     background-repeat: no-repeat;
     position: absolute;
     top: 186rem;
-    left: 9rem;                        
+    left: 9.5rem;                        
 }
 
 /* end crud */
+
+.app-api1{
+    position: absolute;
+    top: 196rem;
+    left: 0.7rem;           
+    width: 12.3rem;
+    height: 35rem;
+    border: 3px solid black;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 18px #000;
+    background-image: url(./imagen/Nodep1.PNG);
+    background-size: 9rem;
+   background-repeat: no-repeat;
+   background-position: center 18%;               
+}
+
+.title-api1{
+    font-size: 2rem;
+    position: absolute;
+    left: 1rem;
+    text-align: center;
+}
+
+.description-api1{
+    position: absolute;
+    left: 1rem;
+    top: 11rem;
+   }
+
+   .logonode-api1{
+    width: 4rem;
+    height: 4rem;
+    background-image: url(./imagen/nodejs.png);
+    background-size: 2.5rem;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 223.5rem;
+    left: 1.6rem;
+}
+
+.logopost-api1{
+    width: 4rem;
+    height: 4rem;
+    background-image: url(./imagen/postman.png);
+    background-size: 2.5rem;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 223.5rem;
+    left: 5.5rem;              
+}
+
+.logopostg-api1{
+    width: 4rem;
+    height: 4rem;
+    background-image: url(./imagen/postgre.png);
+    background-size: 2.5rem;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 223.5rem;
+    left: 9.5rem;                        
+}
+
+/* end api1 */
+
+.app-api2{
+    position: absolute;
+    top: 233rem;
+    left: 0.7rem;           
+    width: 12.3rem;
+    height: 35rem;
+    border: 3px solid black;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 18px #000;
+    background-image: url(./imagen/Nodep1.PNG);
+    background-size: 9rem;
+   background-repeat: no-repeat;
+   background-position: center 18%;               
+}
+
+.title-api2{
+    font-size: 2rem;
+    position: absolute;
+    left: 1rem;
+    text-align: center;
+}
+
+.description-api2{
+    position: absolute;
+    left: 0rem;
+    top: 10rem;    
+   }
+
+   .logonode-api2{
+    width: 4rem;
+    height: 4rem;
+    background-image: url(./imagen/nodejs.png);
+    background-size: 2.5rem;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 260rem;
+    left: 1.6rem;
+}
+
+.logopost-api2{
+    width: 4rem;
+    height: 4rem;
+    background-image: url(./imagen/postman.png);
+    background-size: 2.5rem;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 260rem;
+    left: 5.5rem;              
+}
+
+.logopostg-api2{
+    width: 4rem;
+    height: 4rem;
+    background-image: url(./imagen/postgre.png);
+    background-size: 2.5rem;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 260rem;
+    left: 9.5rem;                        
+}
 
 
 

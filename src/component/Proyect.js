@@ -130,7 +130,59 @@ const Proyect = () => {
       <div className="logojs-crud"></div>
 
       <div className="logocss-crud"></div>
+
+      {/* end crud */}
+
+      {/* start api node 1 */}
+
+      <div className="app-api1">
+        <p className="title-api1">Api  Usuarios</p>
+        <p className="description-api1">
+         Esta  Api  se creo para los  usuarios  en donde por medio de los verbos GET, POST, PATCH, Y  DELETE se  puede crear, editar, actualizar,  y borrar  un usuario   se usaron tecnologias como Nodejs, postmant,postgress 
+        </p>
+
+        <a
+          className="btn_time"
+          href="https://github.com/tayson87/proyectapi1"
+        >
+          Desplegar
+        </a>
+      </div>
+      {/* CRUD  icons */}
+      <div className="logonode-api1"></div>
+
+      <div className="logopost-api1"></div>
+
+      <div className="logopostg-api1"></div>
+
+      {/* end api1 */}
+
+      <div className="app-api2">
+        <p className="title-api2">Api Ecommerce </p>
+        <p className="description-api2">
+         Esta  Api  fue creada para  
+         <br></br>un ecommerce  en donde
+         <br></br> por medio de los verbos GET, POST, PATCH, Y  DELETE se  puede crear, editar, actualizar, 
+         <br></br> borrar y agregar al  
+         <br></br>carrito, se usaron tecnologias como Nodejs, postmant,postgress,
+         <br></br>firebase 
+        </p>
+
+        <a
+          className="btn_time"
+          href="https://github.com/tayson87/entregable_final_node"
+        >
+          Desplegar
+        </a>
+      </div>
+      {/* CRUD  icons */}
+      <div className="logonode-api2"></div>
+
+      <div className="logopost-api2"></div>
+
+      <div className="logopostg-api2"></div>
     </div>
+
   );
 };
 
