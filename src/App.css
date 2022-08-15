@@ -1207,6 +1207,49 @@ height: 50rem;
         
     }
 
+    .app-time{
+        width:16rem;
+        position: absolute;
+        left:1.4rem;
+    }
+
+    .description-time{
+        position: absolute;
+        top: 12.4rem;
+        right:1rem;
+    }
+
+    .title-time{
+        position: absolute;
+        left: 3rem;
+    }
+
+    .logocss{
+        position: absolute;
+        left: 13rem;
+        background-size: 3rem;
+        top:37rem;
+    }
+
+    .logojs{
+       position: absolute;
+       left:8rem;
+       background-size:3rem;
+       top:37rem;
+    }
+
+    .logoreact{
+        position: absolute;
+        left:3rem;
+        background-size: 3rem;
+        top:37rem;
+    }
+
+    .btn_time{
+        position: absolute;
+        left:3.5rem;
+    }
+
 
 
     
