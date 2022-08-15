@@ -1250,6 +1250,204 @@ height: 50rem;
         left:3.5rem;
     }
 
+    .app-phrases{
+        width:16rem;
+        position: absolute;
+        left:1.4rem;
+    }
+
+    .title-phrases{
+        position: absolute;
+        left: 2rem;
+    }
+
+    .description-phrases{
+        position: absolute;
+        top:12rem;
+    }
+
+    .logocss-phrases{
+        position: absolute;
+        left:13rem;
+        background-size:3rem;         
+    }
+
+    .logojs-phrases{
+        position: absolute;
+        left:8rem;
+        background-size:3rem;
+    }
+
+    .logoreact-phrases{
+        position: absolute;
+        left:3rem;
+        background-size:3rem;
+    }
+
+    .app-rickandmorty{
+        width:16rem;
+        position: absolute;
+        left:1.4rem;
+    }
+
+    .description-rickandmorty{
+        position: absolute;
+        top:12rem;
+    }
+
+    .logocss-rickandmorty{
+        position: absolute;
+        left:13rem;
+        background-size:3rem;
+    }
+
+    .logojs-rickandmorty{
+        position: absolute;
+        left:8rem;
+        background-size:3rem;
+    }
+
+    .logoreact-rickandmorty{
+        position: absolute;
+        left:3rem;
+        background-size:3rem;
+    }
+
+    .app-pokedex{
+        width:16rem;
+        position: absolute;
+        left:1.4rem;
+    }
+
+    .title-pokedex{
+        position: absolute;
+        left:2rem;
+        top: 1rem;
+    }
+
+    .description-pokedex{
+        position: absolute;
+        top: 13rem;
+    }
+
+    .logocss-pokedex{
+        position: absolute;
+        left:13rem;
+        background-size:3rem; 
+    }
+
+    .logojs-pokedex{
+        position: absolute;
+        left:8rem;
+        background-size:3rem;
+    }
+
+    .logoreact-pokedex{
+        position: absolute;
+        left:3rem;
+        background-size:3rem;
+    }
+
+    .app-crud{
+        width:16rem;
+        position: absolute;
+        left:1.4rem;
+    }
+
+    .title-crud{
+        position: absolute;
+        left: 3rem;
+        top: 0.5rem;
+    }
+
+    .logocss-crud{
+        position: absolute;
+        left:13rem;
+        background-size:3rem;
+    }
+
+    .logojs-crud{
+        position: absolute;
+        left:8rem;
+        background-size:3rem;
+    }
+
+    .logoreact-crud{
+        position: absolute;
+        left:3rem;
+        background-size:3rem;
+    }
+
+    .app-api1{
+        width:16rem;
+        position: absolute;
+        left:1.4rem;
+    }
+
+    .title-api1{
+        position:absolute;
+        left:2rem;
+        top:0.5rem;
+    }
+
+    .logopostg-api1{
+        position: absolute;
+        left:13rem;
+        background-size:3rem; 
+        top:222rem;
+    }
+
+    .logopost-api1{
+        position: absolute;
+        left:8rem;
+        background-size:3rem; 
+        top:222rem;
+    }
+
+    .logonode-api1{
+        position: absolute;
+        left:3rem;
+        top:222rem;
+        background-size:3rem; 
+    }
+
+    .app-api2{
+        width:16rem;
+        position: absolute;
+        left:1.4rem;  
+    }
+
+    .title-api2{
+        position: absolute;
+        top: 1rem;
+    }
+
+    .description-api2{
+        position:absolute;
+        left: 1rem;
+    }
+
+    .logopostg-api2{
+        position: absolute;
+        left:13rem;
+        background-size:3rem; 
+        top:259rem;
+    }
+
+    .logopost-api2{
+        position: absolute;
+        left:8rem;
+        background-size:3rem; 
+        top:259rem;
+    }
+
+    .logonode-api2{
+        position: absolute;
+        left:3rem;
+        background-size:3rem; 
+        top:259rem; 
+    }
+
 
 
     
