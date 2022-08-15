@@ -1070,6 +1070,149 @@ height: 50rem;
 }
 
 
+/* media querys responsive start  */
+
+@media screen and (max-width: 300px) {
+    /* HOME START */
+    .ham-menu{
+       position: absolute;
+       left: 13rem;
+       top: 2rem; 
+    }
+
+    .nav_logo{
+        position: absolute;
+        top:7rem;
+        left: 5rem;
+    }
+
+    .lastname{
+        position: absolute;
+        top: 10.5rem;
+        left:3rem;              
+    }
+
+    .paragraph{
+        position: absolute;
+        top: 29rem;
+        left:2.8rem;       
+    }
+
+    .nav_container{
+        position: absolute;
+        top: 14rem;
+        left:6rem;              
+    }
+     /* ABOUTME START */
+
+    .email-about{
+        position: absolute;
+        left:14rem; 
+        top: 51rem;
+        background-size:3rem;                     
+    }
+
+    .btn-email{
+        position: absolute;
+        left:14.8rem;                             
+    }
+
+    .logogithub-about{
+        position: absolute;
+        left:8rem; 
+        top: 51rem;
+        background-size:3rem;                     
+    }
+
+    .btn-git{
+        position: absolute;
+        left:8.7rem;                             
+    }
+
+    .logolinkedin-about{
+        position: absolute;
+        left:2rem; 
+        top: 51rem;
+        background-size:3rem;                     
+    }
+
+    .btn-in{
+        position: absolute;
+        left:2.7rem;                             
+    }
+
+    .title-down{
+        position: absolute;
+        left:5rem;
+        top:40rem;     
+    }
+
+    .text-down{
+        position: absolute;
+        left:5rem;
+        top:43rem;     
+    }
+
+    .title-down2{
+        position: absolute;
+        left:4rem;
+        top:46rem;     
+    }
+
+    .text-medium{
+        position: absolute;
+        left:1rem;
+        top: 20rem;             
+    }
+
+    .title-medium{
+        position: absolute;
+        left:4.5rem;
+        top: 16.5rem;                 
+    }
+
+    .text-up{
+        position: absolute;
+        left:1rem;
+        top: 12.4rem;
+        text-align: center;                  
+    }
+
+    .slide_text{
+        position: absolute;
+        left:3.6rem;
+        top: 8.5rem;                          
+    }
+
+    .aboutme_name{
+        position: absolute;
+        left:1rem;
+        top:5rem;
+        font-size:1.5rem;
+    }
+
+    /* PROJECTS START */
+
+    .title-name{
+        position: absolute;
+        left:1rem;
+        top:3rem;
+        font-size:1.5rem;
+    }
+
+    .title-project{
+        position: absolute;
+        left:4.5rem;
+        top: 7rem;       
+        
+    }
+
+
+
+    
+
+}
+
 
 
 
